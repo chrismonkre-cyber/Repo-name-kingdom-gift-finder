@@ -4,8 +4,8 @@ import HeroSection from "../components/HeroSection";
 import GlassCard from "../components/GlassCard";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 
-const DT = "https://media.base44.com/images/public/user_69a2073c194ba1099feee8ab/d5baef185_daily-desktop.png";
-const MB = "https://media.base44.com/images/public/user_69a2073c194ba1099feee8ab/91eb19dfd_daily-mobile.png";
+const DT = "https://media.base44.com/images/public/6a1730b3b02a589f3b265e5e/ee67f1d9d_daily-desktop.png";
+const MB = "https://media.base44.com/images/public/6a1730b3b02a589f3b265e5e/23491ed0c_daily-mobile.png";
 
 const dailies = [
   { theme: "Serving", scripture: "1 Peter 4:10 — Each of you should use whatever gift you have received to serve others.", encouragement: "Your willingness to serve opens doors that talent alone cannot.", prayer: "Lord, give me a heart to serve. Let my hands carry Your love to those around me.", declaration: "I am anointed to serve with joy, excellence, and Kingdom power.", action: "Find one practical way to serve someone today without expecting anything in return.", reflection: "Where did I see God's hand in my service today?" },

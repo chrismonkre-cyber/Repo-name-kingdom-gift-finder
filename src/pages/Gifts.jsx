@@ -3,8 +3,8 @@ import PageBackground from "../components/PageBackground";
 import HeroSection from "../components/HeroSection";
 import { ChevronDown } from "lucide-react";
 
-const DT = "https://media.base44.com/images/public/user_69a2073c194ba1099feee8ab/44014e00a_gifts-desktop.png";
-const MB = "https://media.base44.com/images/public/user_69a2073c194ba1099feee8ab/c4b83d2e6_gifts-mobile.png";
+const DT = "https://media.base44.com/images/public/6a1730b3b02a589f3b265e5e/91a779746_gifts-desktop.png";
+const MB = "https://media.base44.com/images/public/6a1730b3b02a589f3b265e5e/c2c63138a_gifts-mobile.png";
 
 const gifts = [
   { name: "Teaching", desc: "The ability to explain and apply God's Word with clarity.", scripture: "Romans 12:7", looks: "You break down complex truths so others understand. People seek you for insight.", encouragement: "Your gift opens minds and transforms lives through the Word.", prayer: "Lord, anoint my teaching. Let every word carry weight and truth.", declaration: "I teach with the power of the Holy Spirit and the accuracy of His Word.", step: "Prepare and share a short Bible study or devotional with someone this week." },

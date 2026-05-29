@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Menu, X } from "lucide-react";
 
-const LOGO = "https://media.base44.com/images/public/user_69a2073c194ba1099feee8ab/9137d57f4_newlogo.png";
+const LOGO = "https://media.base44.com/images/public/6a1730b3b02a589f3b265e5e/41e1e8948_newlogo.png";
 const NAV_LINKS = [
   { to: "/", label: "Home" },
   { to: "/daily", label: "Daily" },

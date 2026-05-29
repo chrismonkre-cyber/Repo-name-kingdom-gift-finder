@@ -3,8 +3,8 @@ import HeroSection from "../components/HeroSection";
 import GlassCard from "../components/GlassCard";
 import KingdomButton from "../components/KingdomButton";
 
-const DT = "https://media.base44.com/images/public/user_69a2073c194ba1099feee8ab/05a48f3d9_home-desktop.png";
-const MB = "https://media.base44.com/images/public/user_69a2073c194ba1099feee8ab/9fb66f8b7_home-mobile.png";
+const DT = "https://media.base44.com/images/public/6a1730b3b02a589f3b265e5e/33992b91c_resources-desktop.png";
+const MB = "https://media.base44.com/images/public/6a1730b3b02a589f3b265e5e/068f22288_resources-mobile.png";
 
 export default function About() {
   return (
@@ -27,10 +27,27 @@ export default function About() {
           </p>
         </GlassCard>
 
-        <div className="flex flex-wrap justify-center gap-3">
+        <div className="flex flex-wrap justify-center gap-3 mb-8">
           <KingdomButton href="https://kingdommandateministry.com">Visit Kingdom Mandate Ministry</KingdomButton>
           <KingdomButton href="https://www.paypal.com/donate/?business=kingdommm.chris%40gmail.com" variant="burgundy">Partner / Sow</KingdomButton>
         </div>
+
+        <GlassCard id="install-section">
+          <h3 className="font-heading text-yellow-300 text-lg mb-3">Install This Free Kingdom App</h3>
+          <p className="text-yellow-100/80 text-sm leading-relaxed mb-4">You can install Kingdom Gift Finder on your phone, tablet, or computer without using an app store.</p>
+          <ol className="space-y-2 text-yellow-100/80 text-sm mb-5">
+            <li>1. Open this app in your browser.</li>
+            <li>2. Tap your browser menu.</li>
+            <li>3. Choose &quot;Add to Home Screen&quot; or &quot;Install App.&quot;</li>
+            <li>4. Open it anytime like a normal app.</li>
+          </ol>
+          <button
+            onClick={() => document.getElementById('install-section').scrollIntoView({ behavior: 'smooth' })}
+            className="bg-gradient-to-r from-yellow-600 to-yellow-500 text-white font-heading text-sm px-6 py-3 rounded-lg hover:from-yellow-500 hover:to-yellow-400 transition-all w-full md:w-auto"
+          >
+            Install / Add to Home Screen
+          </button>
+        </GlassCard>
       </div>
     </PageBackground>
   );

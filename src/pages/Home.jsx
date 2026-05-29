@@ -3,8 +3,8 @@ import HeroSection from "../components/HeroSection";
 import GlassCard from "../components/GlassCard";
 import KingdomButton from "../components/KingdomButton";
 
-const DT = "https://media.base44.com/images/public/user_69a2073c194ba1099feee8ab/05a48f3d9_home-desktop.png";
-const MB = "https://media.base44.com/images/public/user_69a2073c194ba1099feee8ab/9fb66f8b7_home-mobile.png";
+const DT = "https://media.base44.com/images/public/6a1730b3b02a589f3b265e5e/2d8340be9_home-desktop.png";
+const MB = "https://media.base44.com/images/public/6a1730b3b02a589f3b265e5e/6ff864a55_home-mobile.png";
 
 const features = [
   { title: "Every Believer is Gifted", text: "God has placed grace and purpose within you. Your gifts matter." },

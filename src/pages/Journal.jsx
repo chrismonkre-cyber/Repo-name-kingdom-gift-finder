@@ -4,8 +4,8 @@ import HeroSection from "../components/HeroSection";
 import GlassCard from "../components/GlassCard";
 import { Trash2 } from "lucide-react";
 
-const DT = "https://media.base44.com/images/public/user_69a2073c194ba1099feee8ab/f21bd130d_journal-desktop.png";
-const MB = "https://media.base44.com/images/public/user_69a2073c194ba1099feee8ab/b95e81659_journal-mobile.png";
+const DT = "https://media.base44.com/images/public/6a1730b3b02a589f3b265e5e/1f81132b9_journal-desktop.png";
+const MB = "https://media.base44.com/images/public/6a1730b3b02a589f3b265e5e/a1b9c60e4_journal-mobile.png";
 
 const prompts = [
   "What gifts do I sense God highlighting in my life?",
